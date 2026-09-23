@@ -1,0 +1,17 @@
+#unicorn img{
+    display: block;
+    width: 100px;
+    height: auto;
+    object-fit: scale-down;
+}
+
+#partyhat img{
+    max-width: 25%;
+    height: fit-content;
+}
+
+#necklace img{
+    max-width: 25%;
+    height: fit-content;
+    transform: rotate(45deg);
+}
