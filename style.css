@@ -1,17 +1,59 @@
+#title {
+    margin-left: 3vw;
+}
+
+#controls {
+    position: absolute;
+    top: 10vw;
+    left: 60vw;
+    line-height: 7vw;
+}
+
+#bg {
+    position: relative;
+    margin-left: 3vw;
+    width: 50vw;
+    height: 60vw;
+    border: 2px solid;
+} 
+
+#bg > * {
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
 #unicorn img{
-    display: block;
-    width: 100px;
+    position: center;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
     height: auto;
-    object-fit: scale-down;
 }
 
 #partyhat img{
-    max-width: 25%;
-    height: fit-content;
+    display: inline;
+    width: 12vw;
+    height: auto;
+    transform: rotate(-7deg);
 }
 
 #necklace img{
-    max-width: 25%;
-    height: fit-content;
-    transform: rotate(45deg);
+    display: inline;
+    max-width: 8vw;
+    height: auto;
+    transform: rotate(-10deg);
+}
+
+#tutu img{
+    display: inline;
+    max-width: 25vw;
+    height: auto;
+}
+
+#wand img{
+    display: inline;
+    max-width: 10vw;
+    height: auto;
 }
